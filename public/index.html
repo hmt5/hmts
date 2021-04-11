@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="always" name="referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- <script type="text/javascript" src="https://www.cmpassport.com/NumberAbility/jssdk/jssdk.min.js"></script> -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>f</title>
+    <script>
+    //   var _udata = _udata || [];
+    //   var _hmt = _hmt||[];
+      (function () {            
+        window.addEventListener('resize',function () {
+            tid = setTimeout(function () {
+                if(document.activeElement.tagName === 'INPUT' ||
+                    document.activeElement.tagName === 'TEXTAREA'){
+                    window.setTimeout(function() {
+                      if('scrollIntoView' in document.activeElement) {
+                            document.activeElement.scrollIntoView();
+                       } else {
+                           document.activeElement.scrollIntoViewIfNeeded();
+                        }
+                    }, 1);
+                }
+            },300)
+        });
+    })()
+    </script>
+  </head>
+  <body>  
+    <div id="app"></div>
+  
+  </body>
+  <style>
+    html,body{
+        width: 100%;
+        max-width: 1920px;
+        min-width: 320px;
+        height: 100%;
+        display:table;
+        margin:0 auto;
+        background: #fff;
+        overflow-x:hidden;
+        font-family: 'Hiragino Sans GB', Arial, Helvetica, sans-serif;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    input{
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        outline: none;
+        -webkit-user-select:text !important;
+    }
+    p{
+        border: 0;
+        padding: 0;
+        margin: 0;  
+    }
+    [v-cloak]{
+        display: none !important;
+    }
+    
+    @media screen and (min-width: 1920px){
+        html{font-size:100px;}
+    }
+    @media (min-width:751px) and (max-width:1920px){
+        html{
+            font-size:5.208333vw;
+            max-width: 19.20rem;
+        } 
+    }
+    @media (min-width:320px) and (max-width:750px){
+        html{
+            font-size:13.33333333vw;
+        }
+    }
+    @media screen and (max-width: 320px){
+        html{font-size:16.666666px;}
+    }
+    /* @media (min-width:320px) and (max-width:750px){
+        html{
+            font-size:13.33333333vw;
+        }
+    }
+    
+    @media screen and (max-width: 320px){
+        html{font-size:16.666666px;}
+    } */
+  
+    /* input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px white inset;
+    } */
+   
+    /* @media screen and (min-width: 750px){
+        html{font-size:100px;}
+    }
+    @media screen and (max-width: 320px){
+        html{font-size:42.666666px;}
+    }
+   */
+   
+  </style>
+  <!-- <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+  <script>
+      var vc = new VConsole();
+  </script> -->
+</html>

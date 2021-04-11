@@ -1,0 +1,233 @@
+input[disabled]{cursor:default;vertical-align:baseline;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #B2B5B7;
+}
+[v-cloak] {
+  display: none !important;
+}
+input{
+    outline: none;
+    -webkit-user-select:text !important;
+    -webkit-appearance: none;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+}
+[contenteditable = "true"], input, textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+input{
+    border: 0;
+      padding: 0;
+      margin: 0;
+      background: none;
+      outline: none;
+  }
+img {
+    width: 100%;
+    display: block;
+  }
+  #app{
+    background: #94D7FF;
+}
+  .pome {
+    width: 100%;
+    height: 100%;
+    min-height: 13.35rem;
+    background:#94D7FF;
+    position: relative;
+    padding-top: 3.5rem;
+    box-sizing: border-box;   
+    background: #94D7FF url("../img/back.png") no-repeat top;
+    background-size: 100%; 
+    display: table;
+    /* background-size: cover; */
+  }
+  .banner{
+    width: 7.15rem;
+    position: absolute;
+    top: 0.56rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .banner img{
+    width: 100%;
+    display: block;
+  }
+
+  .banner1{
+    width: 7.07rem;
+    height: 4.12rem;
+    background: url("../img/banner1.png") no-repeat top;
+    background-size: 100%;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-top: 2.63rem;
+    box-sizing: border-box;
+}
+.banner1text{
+    width: 100%;
+}
+.button{
+    width: 4.95rem;
+    margin: auto;
+}
+.button img{
+    width: 100%;
+    display: block;
+}
+
+.banner2{
+    width: 6.96rem;
+    height: 4.81rem;
+    background: url("../img/banner2.png") no-repeat top;
+    background-size: 100%;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 0.1rem;
+    padding-top: 0.78rem;
+    box-sizing: border-box;
+    z-index: 5;
+        
+}
+.banner_video{
+    width: 5.77rem;
+    height: 3.25rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner_video img{
+    width: 100%;
+    display: block;
+}
+.banner_video video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: initial;
+    margin: 0;
+}
+
+.video_layer{
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #000;
+    background-image: url("../img/videoimg.png") ;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.video_button{
+    width: 2.48rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+}
+.video_button img{
+    width: 100%;
+    display: block;
+}
+
+.logos{
+    width: 2.81rem;
+    margin:0.1rem auto 0;
+}
+.logos img{
+    width: 100%;
+    display: block;
+}
+.logosMore{
+    margin-bottom: 0.5rem;
+}
+
+.banner3{
+    width: 6.97rem;
+    height: 4.01rem;
+    background: url("../img/banner3.png") no-repeat top;
+    background-size: 100%;
+    margin: auto;
+    padding-top: 0.8rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.banner3 img{
+    width: 5.57rem;
+    display: block;
+    margin: auto;
+}
+/* 弹框 */
+.box{
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.box::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #000;
+    opacity: 0.6;
+    /* z-index: 1; */
+  }
+/* 加载框 */
+.loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 999;
+  }
+.loading img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
