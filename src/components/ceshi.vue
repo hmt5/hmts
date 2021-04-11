@@ -1,6 +1,9 @@
 <template>
     <div class="">
+      <div></div>
+
        <div id="redzone">
+         ddf
        </div>
     </div>
 </template>
